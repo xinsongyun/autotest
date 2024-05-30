@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="test">
+    <parameter name="name"  value="Mike"/>
+    <parameter name="age" value="33"/>
+
+    <test name="login">
+        <classes>
+            <class name="com.course.testng.suite.LoginTest"/>
+        </classes>
+    </test>
+    <test name="pay">
+        <classes>
+            <class name="com.course.testng.suite.PayTest"/>
+        </classes>
+    </test>
+    <test name="testStu">
+        <groups>
+            <run>
+                <include name="stu"></include>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.course.testng.group" />
+        </packages>
+    </test>
+
+    <test name="parameters">
+        <classes>
+
+            <class name="com.course.testng.parameter.ParameterTest"/>
+        </classes>
+    </test>
+</suite>
