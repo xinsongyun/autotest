@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="MyBatisWithTestng">
+    <test name="testCase">
+        <classes>
+            <class name="com.course.cases.LoginInTest">
+                <methods>
+                    <include name="loginTrue"/>
+                    <include name="loginFalse"/>
+                </methods>
+            </class>
+            <class name="com.course.cases.addUserTest">
+            <methods>
+            <include name="addUser"/>
+            </methods>
+            </class>
+            <class name="com.course.cases.getUserInfoTest">
+            <methods>
+            <include name="getUserInfo"/>
+            </methods>
+            </class>
+            <class name="com.course.cases.updateUserInfoTest">
+            <methods>
+            <include name="updateUserInfo"/>
+            <!--<include name="deleteUser"/>-->
+            </methods>
+            </class>
+
+        </classes>
+
+
+
+    </test>
+
+
+    <listeners>
+        <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>
+    </listeners>
+</suite>
