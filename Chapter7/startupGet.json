@@ -1,0 +1,19 @@
+[
+  {
+    "description": "this is first mock",
+    "request": {
+      "uri": "/getDemo",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      },
+      "queries": {
+        "name": "George",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "I am coming back with cookie true"
+    }
+  }
+]

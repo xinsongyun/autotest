@@ -1,0 +1,24 @@
+[
+  {
+    "description": "this is first mock",
+    "request": {
+      "uri": "/postDemo",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "George",
+        "age": "18"
+      }
+    },
+    "response": {
+      "status": "200",
+       "json": {
+              "info": "OK",
+              "hope": "Maybe"
+            }
+
+    }
+  }
+]

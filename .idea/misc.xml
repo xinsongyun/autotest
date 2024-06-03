@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/APITest/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter6/pom.xml" />
+        <option value="$PROJECT_DIR$/Chapter9/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisProject/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBootAPI/pom.xml" />
+        <option value="D:/自动化测试testng/mksz204 - 面面俱到的Java接口自动化测试实战/课程代码(更多IT教程 微信352852792)/1-11章(更多IT教程 微信352852792)/AutoTest/Chapter11/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisWithCase/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisSpringBootInterface/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

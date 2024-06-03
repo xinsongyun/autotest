@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MybatisWithCase" />
+        <module name="Chapter9" />
+        <module name="Chapter6" />
+        <module name="APITest" />
+        <module name="SpringBootAPI" />
+        <module name="Chapter11" />
+        <module name="Chapter13" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="APITest" target="1.8" />
+      <module name="Chapter11" target="1.8" />
+      <module name="Chapter11 (1)" target="1.5" />
+      <module name="Chapter13" target="1.5" />
+      <module name="Chapter6" target="11" />
+      <module name="Chapter9" target="11" />
+      <module name="MybatisWithCase" target="11" />
+      <module name="SpringBootAPI" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBootAPI" options="-parameters" />
+    </option>
+  </component>
+</project>

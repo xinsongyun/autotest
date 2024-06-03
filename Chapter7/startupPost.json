@@ -1,0 +1,70 @@
+[
+  {
+    "description": "this is to get Cookie",
+    "request": {
+      "uri": "/getCookie",
+      "method": "get"
+
+      },
+
+    "response": {
+      "text": "get Cookie Success",
+      "cookies": {
+        "login": "true"
+
+      }
+    }
+  },
+
+  {
+    "description": "this is first post demo",
+    "request": {
+      "uri": "/postDemo",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "forms": {
+        "name": "George",
+        "age": "18"
+      }
+    },
+    "response": {
+      "text": "my post mock"
+    }
+  },
+  {
+    "description": "this is first get Demo",
+    "request": {
+      "uri": "/getRequestWithCookies",
+      "method": "get",
+      "cookies": {
+        "login": "true"
+      }
+
+    },
+    "response": {
+      "text": "my get mock success with cookie"
+    }
+  },
+  {
+    "description": "this is first post demo",
+    "request": {
+      "uri": "/postRequestWithCookies",
+      "method": "post",
+      "cookies": {
+        "login": "true"
+      },
+      "json": {
+        "name": "George",
+        "age": "18"
+      }
+    },
+    "response": {
+      "json": {
+        "info": "OK",
+        "hope": "Maybe"
+      }
+    }
+  }
+]

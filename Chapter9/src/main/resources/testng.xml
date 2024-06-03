@@ -6,11 +6,16 @@
 
         </classes>
     </test>
-    <!-- not in one thread in one test-->
+
     <test name="post">
         <classes>
             <class name="com.course.httpclient.mockTest.MyHttpClientPost"></class>
         </classes>
     </test>
+
+
+
+
+
 </suite>
 

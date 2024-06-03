@@ -1,0 +1,11 @@
+[
+  {
+    "description": "this is request with header",
+    "request": {
+      "uri": "/redirect"
+    },
+    "redirectTo": "https://www.baidu.com"
+
+  }
+
+]

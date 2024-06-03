@@ -13,7 +13,7 @@ import java.util.ResourceBundle;
 
 public class GetProperites {
     protected String url;
-    protected String getCookiePath;
+    protected String  getCookiePath;
     private ResourceBundle bundle;
     protected String sendRequestWithCookie;
     protected String sendPostWithCookie;

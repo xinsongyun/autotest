@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/APITest/APITest.iml" filepath="$PROJECT_DIR$/APITest/APITest.iml" />
+      <module fileurl="file://D:/自动化测试testng/mksz204 - 面面俱到的Java接口自动化测试实战/课程代码(更多IT教程 微信352852792)/1-11章(更多IT教程 微信352852792)/AutoTest/Chapter11/Chapter11.iml" filepath="D:/自动化测试testng/mksz204 - 面面俱到的Java接口自动化测试实战/课程代码(更多IT教程 微信352852792)/1-11章(更多IT教程 微信352852792)/AutoTest/Chapter11/Chapter11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MybatisSpringBootInterface/Chapter11 (1).iml" filepath="$PROJECT_DIR$/MybatisSpringBootInterface/Chapter11 (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/MybatisSpringBootInterface/Chapter13.iml" filepath="$PROJECT_DIR$/MybatisSpringBootInterface/Chapter13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter6/Chapter6.iml" filepath="$PROJECT_DIR$/Chapter6/Chapter6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter9/Chapter9.iml" filepath="$PROJECT_DIR$/Chapter9/Chapter9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MybatisWithCase/MybatisWithCase.iml" filepath="$PROJECT_DIR$/MybatisWithCase/MybatisWithCase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootAPI/SpringBootAPI.iml" filepath="$PROJECT_DIR$/SpringBootAPI/SpringBootAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/autotest.iml" filepath="$PROJECT_DIR$/.idea/autotest.iml" />
+    </modules>
+  </component>
+</project>
