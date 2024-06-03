@@ -2,23 +2,23 @@
 <suite name="MyBatisWithTestng">
     <test name="testCase">
         <classes>
-            <class name="com.course.cases.LoginInTest">
+            <class name="com.course.test.LoginInTest">
                 <methods>
                     <include name="loginTrue"/>
                     <include name="loginFalse"/>
                 </methods>
             </class>
-            <class name="com.course.cases.addUserTest">
+            <class name="com.course.test.addUserTest">
             <methods>
             <include name="addUser"/>
             </methods>
             </class>
-            <class name="com.course.cases.getUserInfoTest">
+            <class name="com.course.test.getUserInfoTest">
             <methods>
             <include name="getUserInfo"/>
             </methods>
             </class>
-            <class name="com.course.cases.updateUserInfoTest">
+            <class name="com.course.test.updateUserInfoTest">
             <methods>
             <include name="updateUserInfo"/>
             <!--<include name="deleteUser"/>-->

@@ -1,4 +1,4 @@
-package com.course.cases;
+package com.course.test;
 
 import com.alibaba.fastjson.JSONObject;
 import com.course.config.TestConfig;
@@ -12,7 +12,6 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 
 public class addUserTest {
     @Test(description = "添加用户接口接口")//first excute login true

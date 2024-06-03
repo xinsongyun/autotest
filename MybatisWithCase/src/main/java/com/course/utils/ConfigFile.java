@@ -27,7 +27,7 @@ public class ConfigFile {
                 path=resourceBundle.getString("getUserInfo.path");
                 break;
             default:
-                throw new RuntimeException("no url case founded,please retry set url");
+                throw new RuntimeException("no url test founded,please retry set url");
 
 
         }

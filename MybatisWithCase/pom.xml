@@ -11,6 +11,7 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <dependencies>
     <dependency>
@@ -44,6 +45,7 @@
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>6.10</version>
+
         </dependency>
         <dependency>
             <groupId>com.relevantcodes</groupId>
@@ -73,7 +75,7 @@
                 <version>2.12.4</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>./src/main/resource/testng.xml</suiteXmlFile> <!-- 指定TestNG的XML文件 -->
+                        <suiteXmlFile>testng.xml</suiteXmlFile> <!-- 指定TestNG的XML文件 -->
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

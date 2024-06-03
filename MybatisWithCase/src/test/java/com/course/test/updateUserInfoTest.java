@@ -1,6 +1,5 @@
-package com.course.cases;
+package com.course.test;
 
-import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.course.config.TestConfig;
 import com.course.model.UpdateUserInfoCase;

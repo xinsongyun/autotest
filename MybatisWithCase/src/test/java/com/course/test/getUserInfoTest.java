@@ -1,9 +1,8 @@
-package com.course.cases;
+package com.course.test;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.course.config.TestConfig;
-import com.course.model.AddUserCase;
 import com.course.model.GetUserInfoCase;
 import com.course.model.User;
 import com.course.utils.DataBaseUtil;

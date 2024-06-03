@@ -1,4 +1,4 @@
-package com.course.cases;
+package com.course.test;
 
 import com.alibaba.fastjson.JSONObject;
 import com.course.config.TestConfig;
@@ -6,8 +6,6 @@ import com.course.model.InterFaceName;
 import com.course.model.LoginCase;
 import com.course.utils.ConfigFile;
 import com.course.utils.DataBaseUtil;
-import netscape.javascript.JSObject;
-import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.DefaultHttpClient;
@@ -18,7 +16,6 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
 
 public class LoginInTest {
     @BeforeTest(groups = "loginTrue",description = "loingTest")
