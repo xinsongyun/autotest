@@ -2,6 +2,7 @@
 <suite name="MyBatisWithTestng">
     <!--GeorgeTest-->
     <!--for test jira1-->
+    <!-- for test jira2-->
     <test name="testCase">
         <classes>
             <class name="com.course.test.LoginInTest">
