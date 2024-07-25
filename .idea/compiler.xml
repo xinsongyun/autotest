@@ -10,21 +10,20 @@
         <module name="MybatisWithCase" />
         <module name="Chapter9" />
         <module name="Chapter6" />
-        <module name="APITest" />
         <module name="SpringBootAPI" />
-        <module name="Chapter11" />
+        <module name="RestfulAPIForTest" />
         <module name="Chapter13" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="8">
-      <module name="APITest" target="1.8" />
-      <module name="Chapter11" target="1.8" />
-      <module name="Chapter11 (1)" target="1.5" />
-      <module name="Chapter13" target="1.5" />
+    <bytecodeTargetLevel target="11">
+      <module name="Chapter11" target="1.5" />
+      <module name="Chapter11 (1)" target="11" />
+      <module name="Chapter13" target="11" />
       <module name="Chapter6" target="11" />
       <module name="Chapter9" target="11" />
-      <module name="MybatisWithCase" target="11" />
-      <module name="SpringBootAPI" target="1.8" />
+      <module name="MybatisWithCase" target="8" />
+      <module name="RestfulAPIForTest" target="1.6" />
+      <module name="SpringBootAPI" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
