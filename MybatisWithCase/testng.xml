@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <suite name="MyBatisWithTestng">
+    <!--for test jira1-->
     <test name="testCase">
         <classes>
             <class name="com.course.test.LoginInTest">
