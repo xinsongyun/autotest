@@ -1,0 +1,5 @@
+com\course\config\SwaggerConfig.class
+com\course\start\application.class
+com\course\utils\TokenUtils.class
+com\course\controller\UserManager.class
+com\course\model\User.class
