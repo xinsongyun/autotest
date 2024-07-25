@@ -26,6 +26,7 @@ public class LoginInTest {
         TestConfig.getUserListUrl=ConfigFile.getUrl(InterFaceName.getUserListCase);
         TestConfig.updateUserInfoUrl=ConfigFile.getUrl(InterFaceName.updateUserInfoCase);
         TestConfig.defaultHttpClient=new DefaultHttpClient();
+
     }
     @Test(groups = "loginTrue",description = "用户成功登陆接口")
     public void loginTrue() throws IOException {
