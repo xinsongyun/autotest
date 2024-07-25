@@ -1,6 +1,6 @@
-package com.course.server;
+package SpringBootAPI.com.course.server;
 
-import com.course.bean.User;
+import SpringBootAPI.com.course.bean.User;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.*;

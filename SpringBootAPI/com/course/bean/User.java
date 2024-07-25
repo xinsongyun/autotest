@@ -1,4 +1,4 @@
-package com.course.bean;
+package SpringBootAPI.com.course.bean;
 
 
 import lombok.Data;

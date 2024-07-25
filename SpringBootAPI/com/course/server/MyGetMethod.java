@@ -1,4 +1,4 @@
-package com.course.server;
+package SpringBootAPI.com.course.server;
 
 
 import io.swagger.annotations.Api;
